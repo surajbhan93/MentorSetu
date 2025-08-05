@@ -10,7 +10,7 @@ const JoinExpert = () => {
           MentorSetu connects skilled professionals to real freelance-style projects from clients. Join as an expert and work remotely on web development, design, content, and more.
         </p>
 
-        <a href="https://forms.gle/your-form-link-here" target="_blank" rel="noopener noreferrer">
+        <a href="https://tally.so/r/nW70ov" target="_blank" rel="noopener noreferrer">
           <button className="join-button">Apply Now as an Expert 🚀</button>
         </a>
 
@@ -48,13 +48,13 @@ const JoinExpert = () => {
             <li>This work is fully remote and flexible — but deadlines must be respected</li>
             <li>You will be assigned projects only when a client request matches your skills</li>
             <li>A basic confidentiality agreement must be signed before project access</li>
-            <li>This role is separate from student mentorship — you’ll work directly with our clients</li>
+            <li>This role is separate from student mentorship — you’ll work directly with our clients. However, if needed, you may also collaborate with students or work in a team setting on certain projects.</li>
           </ul>
         </section>
 
         <div className="final-cta">
           <h3>🌟 Ready to work on impactful projects from anywhere?</h3>
-          <a href="https://forms.gle/your-form-link-here" target="_blank" rel="noopener noreferrer">
+          <a href="https://tally.so/r/nW70ov" target="_blank" rel="noopener noreferrer">
             <button className="join-button">Apply as an Expert Today</button>
           </a>
         </div>
