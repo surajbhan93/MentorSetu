@@ -1,0 +1,129 @@
+/* StarterPlan.css */
+
+.starter-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #101522;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+}
+
+.starter-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+.starter-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.starter-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.starter-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #10b981;
+}
+
+.starter-duration {
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.starter-features {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.starter-features li {
+  margin-bottom: 0.6rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.starter-features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+.starter-cta-buttons {
+  margin-top: 1.5rem;
+}
+
+.starter-button {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.starter-button:hover {
+  background-color: #2563eb;
+}
+
+.starter-right {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.starter-image {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.starter-description {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #fefce8;
+  border: 1px solid #facc15;
+  border-radius: 1rem;
+  color: #000000;
+}
+
+.starter-description h2,
+.starter-description h3 {
+  color: #b45309;
+  margin-bottom: 1rem;
+}
+
+.starter-description ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.starter-description ul li::marker {
+  color: #000000;
+}
+
+.starter-description code {
+  background-color: #f3f4f6;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  color: #111827;
+  font-weight: 600;
+}

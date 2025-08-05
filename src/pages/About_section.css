@@ -1,0 +1,287 @@
+/* ------------------------------
+   General Container
+------------------------------ */
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #101522;
+  padding: 50px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+/* ------------------------------
+   Hero Section
+------------------------------ */
+.about-hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background-color: #101522;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+/* ------------------------------
+   Stats Section
+------------------------------ */
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  gap: 30px;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  text-align: center;
+  padding: 40px 25px;
+  width: 320px;
+  transition: transform 0.3s ease;
+  color: #1a1a1a;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+}
+
+.stat-card .icon {
+  font-size: 2.8rem;
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+/* ------------------------------
+   Vision Section
+------------------------------ */
+.vision-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.vision-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.vision-section p {
+  max-width: 800px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.about-diagram {
+  max-width: 500px; /* You can reduce this further if needed */
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.validation-achievements {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f5f7fa;
+}
+
+.validation-achievements h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.validation-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.validation-grid .stat-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 250px;
+  max-width: 320px;
+  transition: 0.3s;
+}
+
+.validation-grid .stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.validation-grid .icon {
+  font-size: 36px;
+  color: #0077cc;
+  margin-bottom: 12px;
+}
+
+/* ------------------------------
+   Model Section
+------------------------------ */
+.model-section {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.model-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.model-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.model-box {
+  background-color: #ffffff;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+  border-radius: 16px;
+  padding: 30px 25px;
+  width: 620px;
+  text-align: left;
+  transition: transform 0.3s;
+  color: #1a1a1a;
+}
+
+.model-box:hover {
+  transform: scale(1.03);
+}
+
+.model-box h3 {
+  font-size: 1.4rem;
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+.model-box ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.6;
+}
+
+.model-box li::before {
+  content: '✔️';
+  margin-right: 10px;
+  color: green;
+}
+
+/* ------------------------------
+   CTA Section
+------------------------------ */
+.cta-section {
+  margin-top: 60px;
+  padding: 40px 20px;
+  background: #0077cc;
+  color: white;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  background-color: #ffffff;
+  color: #0077cc;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #e5e5e5;
+}
+
+
+/* ------------------------------
+   Animations
+------------------------------ */
+.fade-in {
+  animation: fadeIn 1.5s ease forwards;
+}
+
+.slide-up {
+  animation: slideUp 1.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ------------------------------
+   Responsive Design
+------------------------------ */
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .stats-section, .model-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-diagram {
+    max-width: 90%;
+  }
+
+  .model-box, .stat-card {
+    width: 90%;
+  }
+}
+.mvp-banner {
+  background-color: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}

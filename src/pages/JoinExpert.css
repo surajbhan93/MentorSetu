@@ -1,0 +1,133 @@
+/* JoinExpert.css */
+
+.join-expert-container {
+  background-color: rgb(75, 89, 247);
+  min-height: 100vh;
+  padding: 4rem 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+}
+
+.content-wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.heading {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #e8ebee;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  color: #000000;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+}
+
+.join-button {
+  background-color: #1565c0;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.85rem 1.75rem;
+  font-size: 1.05rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 1rem auto 2rem;
+  display: block;
+}
+
+.join-button:hover {
+  background-color: #0d47a1;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 3.5rem;
+}
+
+.section-heading {
+  font-size: 1.85rem;
+  color: #f7f8f9;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.section-card {
+  background: #1565c0;
+  backdrop-filter: blur(8px);
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0a0a0a;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.section-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+}
+
+.section-text {
+  font-size: 1.05rem;
+  color: #000000;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.section-list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+  font-size: 1rem;
+}
+
+.section-list li {
+  background: #1565c0;
+  color: #000000;
+  margin-bottom: 0.85rem;
+  padding: 0.85rem 1.25rem;
+  border-left: 5px solid #64b5f6;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.section-list li:hover {
+  background-color: #389aea;
+}
+
+.final-cta {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.final-cta h3 {
+  font-size: 1.5rem;
+  color: #ebebeb;
+  margin-bottom: 1.2rem;
+}
