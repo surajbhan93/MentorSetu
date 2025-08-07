@@ -72,10 +72,11 @@ function Footer() {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
+            <FooterLink as="a" href="https://x.com/MentorSetuJobs" target="_blank" rel="noopener noreferrer">Twitter (X)</FooterLink>
+            <FooterLink as="a" href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</FooterLink>
+            <FooterLink as="a" href="https://www.youtube.com/@Code_WithSuraj" target="_blank" rel="noopener noreferrer">YouTube</FooterLink>
+            <FooterLink as="a" href="https://www.linkedin.com/company/mentorsetu-ai/?viewAsMember=true" target="_blank" rel="noopener noreferrer">LinkedIn</FooterLink>
+
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -86,23 +87,53 @@ function Footer() {
             MentorSetu
           </SocialLogo>
           <WebsiteRights>MentorSetu © {date.getFullYear()} </WebsiteRights>
-          <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-              <FaFacebook />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-              <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
-              <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-              <FaTwitter />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
-              <FaLinkedin />
-            </SocialIconLink>
-          </SocialIcons>
+        <SocialIcons>
+  <SocialIconLink
+    href="https://facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <FaFacebook />
+  </SocialIconLink>
+
+  <SocialIconLink
+    href="https://x.com/MentorSetuJobs"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Twitter (X)"
+  >
+    <FaTwitter />
+  </SocialIconLink>
+
+  <SocialIconLink
+    href="https://www.instagram.com" // optional: add your actual Instagram
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <FaInstagram />
+  </SocialIconLink>
+
+  <SocialIconLink
+    href="https://www.youtube.com/@Code_WithSuraj"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="YouTube"
+  >
+    <FaYoutube />
+  </SocialIconLink>
+
+  <SocialIconLink
+    href="https://www.linkedin.com/company/mentorsetu-ai/?viewAsMember=true"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+  >
+    <FaLinkedin />
+  </SocialIconLink>
+</SocialIcons>
+
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
