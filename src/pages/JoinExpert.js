@@ -9,7 +9,7 @@ const JoinExpert = () => {
         <p className="subheading">
           MentorSetu connects skilled professionals to real freelance-style projects from clients. Join as an expert and work remotely on web development, design, content, and more.
         </p>
-
+// hi
         <a href="https://tally.so/r/nW70ov" target="_blank" rel="noopener noreferrer">
           <button className="join-button">Apply Now as an Expert 🚀</button>
         </a>
