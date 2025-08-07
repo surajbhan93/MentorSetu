@@ -107,6 +107,9 @@ const About = () => {
         <p className="tagline">
           "Har student ke liye ek sacha mentor aur ek sahi mauka."
         </p>
+          <p className="tagline">
+          Contact : mentorsetu@gmail.com
+        </p>
         <a href="/join-mentor" className="cta-button">
           Join as Mentor or Client
         </a>
