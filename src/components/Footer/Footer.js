@@ -73,7 +73,7 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink as="a" href="https://x.com/MentorSetuJobs" target="_blank" rel="noopener noreferrer">Twitter (X)</FooterLink>
-            <FooterLink as="a" href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</FooterLink>
+            <FooterLink as="a" href="https://tinyurl.com/Mentorsetu" target="_blank" rel="noopener noreferrer">Community </FooterLink>
             <FooterLink as="a" href="https://www.youtube.com/@Code_WithSuraj" target="_blank" rel="noopener noreferrer">YouTube</FooterLink>
             <FooterLink as="a" href="https://www.linkedin.com/company/mentorsetu-ai/?viewAsMember=true" target="_blank" rel="noopener noreferrer">LinkedIn</FooterLink>
 
@@ -89,10 +89,10 @@ function Footer() {
           <WebsiteRights>MentorSetu © {date.getFullYear()} </WebsiteRights>
         <SocialIcons>
   <SocialIconLink
-    href="https://facebook.com"
+    href="https://tinyurl.com/Mentorsetu"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Facebook"
+    aria-label="Community"
   >
     <FaFacebook />
   </SocialIconLink>
